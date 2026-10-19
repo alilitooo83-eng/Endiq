@@ -1,0 +1,55 @@
+.ai-features {
+  padding: 120px 10%;
+  text-align: center;
+}
+
+.ai-features h2 {
+  color: #fff;
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.ai-subtitle {
+  color: #b7bfdc;
+  font-size: 18px;
+  max-width: 650px;
+  margin: 0 auto 70px;
+  line-height: 1.8;
+}
+
+.ai-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.ai-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 40px;
+  transition: 0.3s ease;
+}
+
+.ai-card:hover {
+  transform: translateY(-10px);
+  border-color: #6c63ff;
+  box-shadow: 0 20px 60px rgba(108, 99, 255, 0.25);
+}
+
+.ai-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.ai-card h3 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.ai-card p {
+  color: #b7bfdc;
+  line-height: 1.7;
+  font-size: 17px;
+}

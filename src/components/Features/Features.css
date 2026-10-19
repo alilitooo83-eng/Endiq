@@ -1,0 +1,42 @@
+.features {
+  padding: 120px 10%;
+  text-align: center;
+}
+
+.features h2 {
+  color: #fff;
+  font-size: 48px;
+  margin-bottom: 70px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.feature-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 24px;
+  padding: 40px 30px;
+  transition: .3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  border-color: #6c63ff;
+  box-shadow: 0 20px 60px rgba(108,99,255,.25);
+}
+
+.feature-card h3 {
+  color: white;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.feature-card p {
+  color: #b7bfdc;
+  line-height: 1.7;
+  font-size: 17px;
+}
